@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Instance / local DB (keep schema in code, not committed data)
+# instance/*.sqlite3   # (uncomment to stop tracking the demo DB)
+
+# Celery / generated exports
+static/*.csv
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
